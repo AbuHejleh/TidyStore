@@ -37,8 +37,11 @@ module.exports = {
     'react-native/react-native': true,
   },
   rules: {
-    'react-native/no-inline-styles': 0,
-    '@typescript-eslint/no-unused-vars': ['warn'],
-    'react/react-in-jsx-scope': 'off',
+    'object-curly-spacing': ['error', 'never'],
+    'no-unused-vars': [
+      'error',
+      {argsIgnorePattern: '^_', varsIgnorePattern: '^_'},
+    ],
+    '@typescript-eslint/no-unused-vars': ['error'],
   },
 };
