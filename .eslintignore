@@ -1,0 +1,8 @@
+# Ignore Babel config so ESLint doesn’t try to parse it
+babel.config.js
+
+# Ignore node_modules (standard)
+node_modules
+
+# Optional: ignore system files that cause errors
+C:/DumpStack.log.tmp
